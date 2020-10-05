@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Roboto';
+    src:url('Roboto.ttf.woff') format('woff'),
+        url('Roboto.ttf.svg#Roboto') format('svg'),
+        url('Roboto.ttf.eot'),
+        url('Roboto.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, .mainbg{ 
+  background: url(img/climax.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	line-height: 0;
+	background-color:#3d3d3d;
+}
+body, p{
+	color: #474A48;
+	font-family: 'Roboto', sans-serif;
+
+}
+p{
+  font-weight:500;
+}
+
+h5{
+	line-height: 1.3rem;
+  font-size: 1.4rem;
+  font-weight:400;
+  color: #ff35d6;
+}
+h1{
+	color:#ebebeb;
+	font-weight: 400;
+	font-size: 2.4rem;
+	font-family: 'Roboto Slab', serif;
+}
+h2,h3,h4{
+	font-weight: 300;
+}
+h4{
+font-size: 80px; 
+font-family:'bungee'; 
+font-weight:400; 
+text-shadow: 2px 2px #666666; 
+color:#fb36d3;
+}
+.pad-sm{
+	padding: 2rem 0;
+}
+.bg-white{
+	background-color: #ededed;
+}
+.bg-grey{
+	background-color: #3d3d3d;
+	padding: 2rem 0;
+}
+
+.text-inverse{
+	color: #fb36d3!important;
+}
+.hero{
+	padding: 3rem;
+}
+.hero h1{
+	font-size: 4rem;
+}
+.row{
+	min-height: 500px;
+	align-self: center;
+	align-content: center;
+	align-self:center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: #686868;
+}
+
+.btn,
+.btn-primary{
+	border-color: #ebebeb;
+	font-weight: 700;
+	letter-spacing: .1em;
+  font-weight: 900; 
+  text-shadow: 2px 2px #666666; 
+  font-size: 26px; 
+  background: #fb36d3;
+  background-color: #fb36d3; 
+  min-width: 300px; 
+  min-height: 60px;
+  border-color: #fb36d3;
+}
+.link-icon img{
+	height: auto;
+	max-height: 175px;
+	padding: 1rem;
+	widows: auto;
+}
+svg{
+	fill: #686868;
+}
+svg:hover{
+	fill: #686868;
+}
+a:hover,
+a img:hover{
+	opacity: .7;
+}
+
+button:hover,
+a:hover,
+.btn-primary:hover{
+  background-color:#f1f1f1;
+  color:#eeeeee;
+}
+@media (min-width: 200px) and (max-width: 760px) {
+    .staking{
+    max-width: 350px;
+    height: auto;
+  }
+  h4{
+    font-size: 2rem;
+  }
+  .full-width img{
+    width: 80%;
+  }
+
+}
